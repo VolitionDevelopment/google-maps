@@ -1,0 +1,6 @@
+/* line 2, ../compass/sass/styles.scss */
+#map {
+  height: 100vh;
+  width: 60%;
+  float: left;
+}
