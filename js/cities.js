@@ -35,5 +35,6 @@ app.controller('citiesCtrl', function($scope){
 
 	$scope.triggerClick = function(index){
 		google.maps.event.trigger(markers[index], "click");
+		map.setCenter( markers[index].position);
 	}	
 });

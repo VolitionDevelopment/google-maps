@@ -24,7 +24,7 @@
 		</thead>
 		<tbody>
 			<tr ng-repeat="city in cities track by $index">
-				<td ng-click="triggerClick($index)">{{city.city}}, {{city.state}}</td>
+				<td>{{city.city}}, {{city.state}} | <a ng-click="triggerClick($index)" class="btn btn-primary btn-sm">Show Info</a></td>
 				<td>{{city.yearRank}}</td>
 			</tr>
 		</tbody>
